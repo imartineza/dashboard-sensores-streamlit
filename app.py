@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from streamlit_autorefresh import st_autorefresh
 import plotly.express as px
 from supabase import create_client
 
@@ -12,7 +13,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
+st_autorefresh(interval=5000, key="dashboard")
 # =====================================
 # CONEXIÓN A SUPABASE
 # =====================================
