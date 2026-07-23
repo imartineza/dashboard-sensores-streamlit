@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-from streamlit_autorefresh import st_autorefresh
 import plotly.express as px
 from supabase import create_client
-
+from streamlit_autorefresh import st_autorefresh
 # =====================================
 # CONFIGURACIÓN DE LA PÁGINA
 # =====================================
