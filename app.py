@@ -8,7 +8,7 @@ from supabase import create_client
 # =====================================
 
 st.set_page_config(
-    page_title="Dashboard Industrial",
+    page_title="Dashboard Industrial", 
     page_icon="📊",
     layout="wide"
 )
